@@ -1,0 +1,212 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.336283,
+                    47.607095
+                ]
+            },
+            "properties": {
+                "name": "Seattle Art Museum (SAM)",
+                "address": "1300 1st Ave, Seattle, WA 98101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3379536111046,
+                    47.60754865167318
+                ]
+            },
+            "properties": {
+                "name": "Seattle Asian Art Museum",
+                "address": "1400 E Prospect St, Seattle, WA 98112"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.355153,
+                    47.616651
+                ]
+            },
+            "properties": {
+                "name": "Olympic Sculpture Park",
+                "address": "2901 Western Ave, Seattle, WA 98121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.324009,
+                    47.607913
+                ]
+            },
+            "properties": {
+                "name": "Frye Art Museum",
+                "address": "704 Terry Ave, Seattle, WA 98104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.351478,
+                    47.620587
+                ]
+            },
+            "properties": {
+                "name": "Chihuly Garden and Glass",
+                "address": "305 Harrison St, Seattle, WA 98109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.310992,
+                    47.655043
+                ]
+            },
+            "properties": {
+                "name": "Henry Art Gallery",
+                "address": "4100 15th Ave NE, Seattle, WA 98105"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.348257,
+                    47.621525
+                ]
+            },
+            "properties": {
+                "name": "Museum of Pop Culture (MoPOP)",
+                "address": "325 5th Ave N, Seattle, WA 98109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.322998,
+                    47.597453
+                ]
+            },
+            "properties": {
+                "name": "Wing Luke Museum",
+                "address": "719 S King St, Seattle, WA 98104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.297964,
+                    47.589531
+                ]
+            },
+            "properties": {
+                "name": "Northwest African American Museum",
+                "address": "2300 S Massachusetts St, Seattle, WA 98144"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.309275,
+                    47.66019
+                ]
+            },
+            "properties": {
+                "name": "Burke Museum of Natural History and Culture",
+                "address": "4300 15th Ave NE, Seattle, WA 98105"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.20101844054103,
+                    47.615057675490235
+                ]
+            },
+            "properties": {
+                "name": "Bellevue Arts Museum",
+                "address": "510 Bellevue Way NE, Bellevue, WA 98004"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": []
+            },
+            "properties": {
+                "name": "Magnuson Park Gallery",
+                "address": "7448 63rd Ave NE Building 30, Seattle, WA 98115"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35036177122484,
+                    47.62041526707642
+                ]
+            },
+            "properties": {
+                "name": "Chihuly Garden and Glass",
+                "address": "305 Harrison St, Seattle, WA 98109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.335010540541,
+                    47.612609460591365
+                ]
+            },
+            "properties": {
+                "name": "WOW Gallery",
+                "address": "600 Pine St 3rd Floor, Seattle, WA 98101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34495699762869,
+                    47.61222366068049
+                ]
+            },
+            "properties": {
+                "name": "Seattle NFT Museum",
+                "address": "2123 1st Ave, Seattle, WA 98121"
+            }
+        }
+    ]
+}

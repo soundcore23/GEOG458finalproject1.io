@@ -1,0 +1,382 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34830648835826,
+                    47.620427566097234
+                ]
+            },
+            "properties": {
+                "name": "Black Lightning By Ronald Bladen",
+                "address": "Broad St, Seattle, WA 98109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31847927128382,
+                    47.65513683958544
+                ]
+            },
+            "properties": {
+                "name": "The Wall of Death",
+                "address": "Seattle, WA 98105"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35530195115217,
+                    47.61659737586207
+                ]
+            },
+            "properties": {
+                "name": "Olympic Sculpture Park",
+                "address": "2901 Western Ave, Seattle, WA 98121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34700590011927,
+                    47.651097110919125
+                ]
+            },
+            "properties": {
+                "name": "Moss Turtle Public Sculpture",
+                "address": "904 N 36th St, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31518027128381,
+                    47.629927846906064
+                ]
+            },
+            "properties": {
+                "name": "Black Sun by Isamu Noguchi",
+                "address": "Volunteer Park, Seattle, WA 98102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32069577128382,
+                    47.615494527244714
+                ]
+            },
+            "properties": {
+                "name": "Jimi Hendrix Statue",
+                "address": "1604 Broadway, Seattle, WA 98122"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35008870011927,
+                    47.61939572845881
+                ]
+            },
+            "properties": {
+                "name": "Olympic Iliad by Alexander Liberman",
+                "address": "378 Broad St, Seattle, WA 98109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.400929364537,
+                    47.66736345597202
+                ]
+            },
+            "properties": {
+                "name": "A Salish Welcome",
+                "address": "3419 NW 54th St, Seattle, WA 98107"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35026707128382,
+                    47.61998734449963
+                ]
+            },
+            "properties": {
+                "name": "Sonic Bloom",
+                "address": "Seattle, WA 98109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31053054429664,
+                    47.64011750598126
+                ]
+            },
+            "properties": {
+                "name": "ART! by Aaron Hooley",
+                "address": "2316 16th Ave E, Seattle, WA 98112"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35167997128382,
+                    47.62024392872279
+                ]
+            },
+            "properties": {
+                "name": "Neototems Children's Garden",
+                "address": "Seattle, WA 98109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.24684823570153,
+                    47.681362859363716
+                ]
+            },
+            "properties": {
+                "name": "The Fin Project by John T. Young",
+                "address": "7400 Sand Point Way NE, Seattle, WA 98115"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34947767128381,
+                    47.64944341017532
+                ]
+            },
+            "properties": {
+                "name": "Waiting For The Interurban",
+                "address": "601 N 34th St suite b, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3555901001193,
+                    47.615260143355385
+                ]
+            },
+            "properties": {
+                "name": "Echo by Jaume Plensa",
+                "address": "2801 Alaskan Wy, Seattle, WA 98121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35638107128382,
+                    47.615704411157374
+                ]
+            },
+            "properties": {
+                "name": "Schubert Sonata by Mark di Suvero",
+                "address": "2851 Alaskan Wy, Seattle, WA 98121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3354470424483,
+                    47.60512599025023
+                ]
+            },
+            "properties": {
+                "name": "Botero Statue of Adam",
+                "address": "1001 2nd Ave, Seattle, WA 98104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34847520011928,
+                    47.62214976073048
+                ]
+            },
+            "properties": {
+                "name": "Grass Blades by John Fleming",
+                "address": "300 Harrison St, Seattle, WA 98109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35112182907406,
+                    47.650530303792635
+                ]
+            },
+            "properties": {
+                "name": "Fremont Troll",
+                "address": "North 36th Street, Troll Ave N, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    47.64946697944389, -122.34860917284638
+                ]
+            },
+            "properties": {
+                "name": "JP Patches and Gertrude Statue Site",
+                "address": "601 N 34th St suite b, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35112182907406,
+                    47.650530303792635
+                ]
+            },
+            "properties": {
+                "name": "The Fremont Rocket",
+                "address": "3420 Evanston Ave N, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.29573027140313,
+                    47.6354790373677
+                ]
+            },
+            "properties": {
+                "name": "Union Sculpture",
+                "address": "Arboretum Dr E, Seattle, WA 98112"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.36181637140312,
+                    47.619294256859554
+                ]
+            },
+            "properties": {
+                "name": "Adjacent, Against, Upon",
+                "address": "Elliott Bay Trail, Seattle, WA 98121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35084220023859,
+                    47.650149648532754
+                ]
+            },
+            "properties": {
+                "name": "Gods of Fremont",
+                "address": "619 N 35th St, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3130543714031,
+                    47.59845601327034
+                ]
+            },
+            "properties": {
+                "name": "Troy Pillow Sculpture",
+                "address": "416 Rainier Ave S, Seattle, WA 98144"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34105617140312,
+                    47.608355416732145
+                ]
+            },
+            "properties": {
+                "name": "Short Cut Lights by Dan Webb",
+                "address": "Seattle, WA 98101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.39971518561242,
+                    47.53127490856503
+                ]
+            },
+            "properties": {
+                "name": "Bruun Idun - Way of the Bird King",
+                "address": "Lincoln Park Way SW, Seattle, WA 98136"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34998987027053,
+                    47.65037070495221
+                ]
+            },
+            "properties": {
+                "name": "Center of the Universe Signpost",
+                "address": "3427 Fremont Pl N, Seattle, WA 98103"
+            }
+        }
+    ]
+}

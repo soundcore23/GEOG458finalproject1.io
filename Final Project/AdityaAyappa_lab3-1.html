@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8' />
+    <title>Pokemon GO Campus Map</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src='https://npmcdn.com/csv2geojson@latest/csv2geojson.js'></script>
+    <style>
+        body {margin: 0; padding: 0;}
+        #map {position: absolute; top: 0; bottom: 0; width: 100%;}
+    </style>
+</head>
+<body>
+    <div id='map'></div>
+    <script>
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWFwdXNlcjAzIiwiYSI6ImNtMHpzYTFiZzAyd2cyanBrYWhpYXZsZ3gifQ.paRv0YlSRjmXUZKSMTjGEA';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            projection: 'globe',
+            center: [-122.3080, 47.6553], // Centered on UW Seattle Campus
+            zoom: 14
+        });
+
+        map.addControl(new mapboxgl.FullscreenControl());
+        map.addControl(new mapboxgl.NavigationControl());
+
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                url: 'https://docs.google.com/spreadsheets/d/1beCzb5tVkLwxkw-fKYfqJMOQpPtFo5mB_-8B3oJyV5s/gviz/tq?tqx=out:csv&sheet=Sheet1',
+                dataType: "text",
+                success: function (csvData) { makeGeoJSON(csvData); }
+            });
+        });
+
+        function makeGeoJSON(csvData) {
+            csv2geojson.csv2geojson(csvData, {
+                latfield: 'Latitude',
+                lonfield: 'Longitude',
+                delimiter: ','
+            }, function (err, data) {
+                map.on('load', function () {
+                    map.addLayer({
+                        'id': 'pokemon-data',
+                        'type': 'circle',
+                        'source': {
+                            'type': 'geojson',
+                            'data': data
+                        },
+                        'paint': {
+                            'circle-radius': 7,
+                            'circle-color': "blue",
+                            'circle-stroke-color': 'white',
+                            'circle-stroke-width': 1
+                        }
+                    });
+                });
+            });
+        }
+
+        // Add interactivity to circle layer
+        map.on('click', 'pokemon-data', (event) => {
+            new mapboxgl.Popup()
+            .setLngLat(event.features[0].geometry.coordinates)
+            .setHTML(`
+                <strong>Pokemon:</strong> ${event.features[0].properties['Pokemon']}<br>
+                <strong>Trainer:</strong> ${event.features[0].properties['Your_Name']}<br>
+                <a href="${event.features[0].properties['Google_Drive_Image_Link']}" target="_blank">View Image</a>
+            `)
+            .addTo(map);
+        });
+
+    </script>
+<div id="legend" style="position: absolute; bottom: 30px; left: 10px; background: white; padding: 10px; font-family: Arial, sans-serif; z-index: 1;">
+        <h4>Legend</h4>
+        <div style="display: flex; align-items: center;"><span style="background-color: blue; width: 15px; height: 15px; border-radius: 50%; display: inline-block; margin-right: 5px;"></span><span style="position: relative; top: -2px;">Pokemon Location</span></div>
+    </div>
+</body>
+</html>

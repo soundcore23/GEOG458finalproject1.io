@@ -1,0 +1,285 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32755681837767,
+                    47.58238350211773
+                ]
+            },
+            "properties": {
+                "name": "SODO track",
+                "address": "SODO Busway, Seattle, WA 98134"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.32706043564187,
+                    47.59511854287511
+                ]
+            },
+            "properties": {
+                "name": "Urban Artworks",
+                "address": "815 Seattle Blvd S Suite B7, Seattle, WA 98134"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33480073564188,
+                    47.60184336149783
+                ]
+            },
+            "properties": {
+                "name": "Bilie King 2002 Mural",
+                "address": "606 Post Ave, Seattle, WA 98104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34053754913548,
+                    47.60855478762966
+                ]
+            },
+            "properties": {
+                "name": "Post Alley Street Mural",
+                "address": "1499 Post Alley, Seattle, WA 98101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34347561785079,
+                    47.611827071261835
+                ]
+            },
+            "properties": {
+                "name": "Sue Bird Mural",
+                "address": "2030 1st Ave, Seattle, WA 98121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34572751214576,
+                    47.61383007506218
+                ]
+            },
+            "properties": {
+                "name": "Greetings from Seattle",
+                "address": "2231 2nd Ave, Seattle, WA 98121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3508446178508,
+                    47.620466188131644
+                ]
+            },
+            "properties": {
+                "name": "Mural Amphitheater at Seattle Center",
+                "address": "305 Harrison St, Seattle, WA 98109"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3583813000149,
+                    47.62170701417967
+                ]
+            },
+            "properties": {
+                "name": "The Emerald City Mural",
+                "address": "321 1st Ave W, Seattle, WA 98119"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3595953356419,
+                    47.65262449660006
+                ]
+            },
+            "properties": {
+                "name": "Fermont Canal Park Mural",
+                "address": "142 NW Canal St, Seattle, WA 98107"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35465437056715,
+                    47.650850174142356
+                ]
+            },
+            "properties": {
+                "name": "Solstice",
+                "address": "3401 Phinney Ave N, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34941812946269,
+                    47.65034837070083
+                ]
+            },
+            "properties": {
+                "name": "Freemont Mural",
+                "address": "705 N 35th St, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35573000005962,
+                    47.69394448657557
+                ]
+            },
+            "properties": {
+                "name": "Seattle Mural art",
+                "address": "8745 Greenwood Ave N, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.31322140005963,
+                    47.6691301719711
+                ]
+            },
+            "properties": {
+                "name": "Hidden Wizard Gallery",
+                "address": "5519 University Wy NE, Seattle, WA 98115"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.3351552178508,
+                    47.66425277760889
+                ]
+            },
+            "properties": {
+                "name": "The Wallingford Ladybug",
+                "address": "4820 Burke Ave N, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34667300237533,
+                    47.65269299671217
+                ]
+            },
+            "properties": {
+                "name": "Aurora Bride Mural",
+                "address": "N 38th St &, Bridge Way N, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.38156185948696,
+                    47.6688747711015
+                ]
+            },
+            "properties": {
+                "name": "Jen Vickers",
+                "address": "1766 NW Market St, Seattle, WA 98107"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34303487117946,
+                    47.611632289047975
+                ]
+            },
+            "properties": {
+                "name": "ESPO Mural",
+                "address": "2020 1st Ave, Seattle, WA 98121"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34253238835826,
+                    47.649641167233995
+                ]
+            },
+            "properties": {
+                "name": "Whale Wins Mural",
+                "address": "3506 Stone Way N, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.35145575891048,
+                    47.65093696385529
+                ]
+            },
+            "properties": {
+                "name": "Sweet Spot Mural",
+                "address": "3509 Evanston Ave N, Seattle, WA 98103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34666442946268,
+                    47.66211957095541
+                ]
+            },
+            "properties": {
+                "name": "46th Street Mural",
+                "address": "898-852 N 46th St, Seattle, WA 98103"
+            }
+        }
+    ]
+}
